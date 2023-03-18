@@ -1,0 +1,37 @@
+.b img{
+    width: 355px;
+    height: 355px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.a{
+    width: 10px;
+    height: 150px;
+    background-color: black;
+    margin: 0 auto;
+    animation: rotate 40s linear infinite;
+    background-repeat: repeat-x;
+    margin-top: -180px;
+    transform-origin: 5px 0px ;
+    border-radius: 5px;
+}
+.sec{
+    width: 5px;
+    height: 150px;
+    background-color: rgb(255, 83, 83);
+    margin: 0 auto;
+    animation: rotate 20s linear infinite;
+    background-repeat: repeat-x;
+    margin-top: -150px;
+    transform-origin: 2.5px 0px ;
+    border-radius: 5px;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
